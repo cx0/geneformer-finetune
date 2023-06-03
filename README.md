@@ -2,6 +2,8 @@
 
 ### Input files for TF dosage sensitivity classification task
 
+Original input files by the authors are [here](https://huggingface.co/ctheodoris/Geneformer/tree/main/examples/example_input_files).
+
 Input files for the [example notebook](https://huggingface.co/ctheodoris/Geneformer/blob/main/examples/gene_classification.ipynb) describing the finetuning process for transcription factor (TF) dosage sensitivity prediction.
 
 | Input file                                                                                           |    Description    |   
@@ -14,7 +16,7 @@ Ni et al (2019) gathered dosage sensitivity prediction scores from two sources:
 - High confident haploinsufficient genes ([pLI>0.9](https://github.com/cx0/geneformer-finetune/blob/main/dosage_sens_tf/exac_lof_pLI_genes.txt)) from Lek et al (2016)
 - Likely dosage sensitive genes ([HIPred>0.5](https://github.com/HAShihab/HIPred)) from Shihab et al (2017)
 
-They also retrieved a set of all human transcription factors from Lampert et al (2018) ([human TF data v1.01](http://humantfs.ccbr.utoronto.ca/download.php)), and generated most reliable dosage-sensitive (MRDS) gene set by considering support by each source dataset. Final list inclues 122 TFs with positive label (dosage sensitive) out of a total of 1639 human TFs.
+They also retrieved a set of all human transcription factors from Lampert et al (2018) ([human TF data v1.01](http://humantfs.ccbr.utoronto.ca/download.php)), and generated most reliable dosage-sensitive (MRDS) and dosage-insensitive (MRDIS) gene sets by considering support by each source dataset. Final list inclues 122 TFs with positive label (dosage sensitive, [MRDS](https://github.com/cx0/geneformer-finetune/blob/main/dosage_sens_tf/most_reliable_dosage_sensitive_TFs.csv)) and 368 TFs with negative label (dosage insensitive, [MRDIS](https://github.com/cx0/geneformer-finetune/blob/main/dosage_sens_tf/most_reliable_dosage_insensitive_TFs.csv)) out of a total of 1639 human TFs.
 
 
 
