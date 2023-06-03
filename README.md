@@ -2,7 +2,7 @@
 
 ### Input files for TF dosage sensitivity classification task
 
-Original input files by the authors are [here](https://huggingface.co/ctheodoris/Geneformer/tree/main/examples/example_input_files).
+*Update: original input files by the authors are [here](https://huggingface.co/ctheodoris/Geneformer/tree/main/examples/example_input_files).*
 
 Input files for the [example notebook](https://huggingface.co/ctheodoris/Geneformer/blob/main/examples/gene_classification.ipynb) describing the finetuning process for transcription factor (TF) dosage sensitivity prediction.
 
